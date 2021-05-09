@@ -1,0 +1,365 @@
+﻿
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    margin-top: 10px;
+    background: rgba(242,242,242,1);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.asset-list,
+.wallet,
+.contract {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding:15px 0;
+}
+
+.main {
+    width: 100%;
+    margin: auto;
+    display:flex;
+}
+
+.wallet-wrap {
+    width: 300px;
+    max-width: 300px;
+}
+
+.asset {
+    width: 540px;
+    max-width: 540px;
+}
+
+.asset-item,
+.add-currency,
+.get-accounts {
+    width: 100%;
+    max-width: 540px;
+}
+
+.wallet-item,
+.contract-item {
+    width: 100%;
+}
+
+.wallet-card,
+.tokens-card,
+.contract-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px 0 0;
+    background: #FFF;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.asset-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    background: #FFF;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.asset-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.asset-ico {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.wallet-info,
+.tokens-info,
+.contract-info {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+    .wallet-info p.wallet-name,
+    .tokens-info p.tokens-count,
+    .contract-info p.contract-count {
+        margin-top: .5rem;
+        margin-bottom: .15rem;
+        font-size: 16px;
+        color: rgba(255, 62, 0, 0.99);
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .tokens-info p.tokens-count,
+    .contract-info p.contract-count {
+        color: rgba(163, 215, 104, 0.99);
+    }
+
+    .wallet-info p.wallet-info-title,
+    .tokens-info p.tokens-info-title,
+    .contract-info p.contract-info-title {
+        margin: 0;
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 700;
+        text-align: center;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    }
+
+.asset-info {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+    .asset-info p {
+        margin-bottom: 0;
+    }
+
+        .asset-info p.asset-name {
+            margin-top: .5rem;
+            margin-bottom: .15rem;
+            font-size: 13px;
+            color: rgba(0, 62, 255, 0.99);
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .asset-info p.asset-address {
+            font-size: 14px;
+            text-align: center;
+            color: rgba(66, 66, 66, 0.99);
+        }
+
+.asset-detail {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+    .asset-detail .asset-name {
+        margin-top: .5rem;
+        margin-bottom: .15rem;
+        font-size: 13px;
+        color: rgba(0, 62, 255, 0.99);
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .asset-detail .asset-code {
+        margin-top: .15rem;
+        margin-bottom: .15rem;
+        font-size: 11px;
+        color: rgba(99, 99, 99, 0.49);
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .asset-detail .asset-balance {
+        font-size: .75rem;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+.contract-card .asset-detail .asset-balance {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.asset-detail .wallet-operation button {
+    width: 100%;
+}
+
+.asset-history {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+    .asset-history p {
+        margin-bottom: 0;
+    }
+
+        .asset-history p.asset-history-title {
+            margin-bottom: .75rem;
+            text-align: left;
+            font-size: 13px;
+            color: rgba(255, 62, 0, 0.99);
+            font-weight: 700;
+            border-bottom: 1px solid rgba(99, 99, 99, 0.49)
+        }
+
+        .asset-history p.asset-transaction {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+            .asset-history p.asset-transaction .tx-hash {
+                font-size: .55rem;
+                padding: 5px 0;
+                width: 60%;
+                max-width: 300px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .asset-history p.asset-transaction .confirmation {
+                font-size: .55rem;
+                padding: 5px 0;
+                color: rgba(255, 62, 0, 0.99);
+                font-weight: 700;
+            }
+
+            .asset-history p.asset-transaction .bal {
+                font-size: .55rem;
+                padding: 5px 0;
+                min-width: 80px;
+            }
+
+                .asset-history p.asset-transaction .bal .curr-bal {
+                    font-weight: 700;
+                }
+
+
+
+.add-currency {
+    margin: 25px 0px;
+}
+
+.create-wallet,
+.create-contract {
+    width: 100%;
+    max-width: 540px;
+}
+
+
+.select-wallet,
+.get-contract,
+.list-contract {
+    width: 100%;
+    max-width: 540px;
+}
+
+.account-count {
+    text-align: center;
+    background-color: rgb(23, 162, 184);
+    color: #fff;
+}
+
+.notify-status {
+    text-align: center;
+    background-color: #e5e5e5;
+}
+
+.toast-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(66, 66, 66, 0.75);
+}
+
+.nav-tabs .nav-item {
+    width: 50%;
+    text-align:center;
+}
+
+.withdraw-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px 0 0;
+    background: #FFF;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    width: 320px;
+}
+.withdraw-form div input{
+    margin: 5px 0;
+}
+.toast{
+    max-width:100%;
+}
